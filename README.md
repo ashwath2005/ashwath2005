@@ -141,35 +141,7 @@ I am a **Computer Science Engineering student** and **Full Stack Developer** foc
 
 ---
 
-### 📊 GitHub Analytics &amp; Metrics
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=ashwath2005&show_icons=true&theme=tokyonight&bg_color=05070A&title_color=38BDF8&text_color=F8FAFC&icon_color=38BDF8&border_color=1F2937&hide_border=false&rank_icon=github" alt="Ashwath's GitHub Stats" height="165" />
-      </td>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashwath2005&layout=compact&theme=tokyonight&bg_color=05070A&title_color=38BDF8&text_color=F8FAFC&border_color=1F2937&hide_border=false" alt="Top Languages" height="165" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ashwath2005&theme=tokyonight&background=05070A&stroke=1F2937&ring=38BDF8&fire=38BDF8&currStreakNum=F8FAFC&sideNums=94A3B8&currStreakLabel=38BDF8&dates=64748B&hide_border=false" alt="Ashwath's GitHub Streak" width="100%" />
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-### 📈 Activity Overview
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ashwath2005&bg_color=05070A&color=38BDF8&line=38BDF8&point=818CF8&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph" />
-</div>
-
----
 
 ### 🤝 Let's Connect
 
