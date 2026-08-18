@@ -13,141 +13,132 @@
 
 <br/>
 
-<p align="center">
-  <b>Computer Science Engineering Student &nbsp;•&nbsp; Full Stack Developer &nbsp;•&nbsp; AI/ML Enthusiast</b>
-  <br/>
-  <i>"Architecting intelligent, high-performance, and immersive software systems."</i>
-</p>
-
-</div>
-
----
-
-### 🚀 About Me
-
-I am a **Computer Science Engineering student** and **Full Stack Developer** focused on building production-ready web applications, intelligent systems, and interactive 3D visualizations.
-
-* 💻 **Software Engineering**: Designing resilient backend architectures with **Spring Boot** & **Node.js**, paired with modern, responsive frontends in **React** & **TypeScript**.
-* 🌐 **Interactive 3D Graphics**: Developing browser-based simulation and visualization tools using **Three.js** and WebGL.
-* 🤖 **Applied AI/ML**: Integrating predictive models, LLM agents, and automated data pipelines into practical software products.
-* ⚡ **Core Foundations**: Strong problem-solving capabilities grounded in Data Structures, Algorithms, and System Design principles.
-
----
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-| Domain | Technologies &amp; Tools |
-| :--- | :--- |
-| **Languages** | `Java` `JavaScript (ES6+)` `TypeScript` `Python` `C++` `SQL` `HTML5` `CSS3` |
-| **Frontend** | `React.js` `Three.js` `Vite` `Tailwind CSS` `WebGL` `Next.js` |
-| **Backend &amp; APIs** | `Spring Boot` `Node.js` `Express.js` `RESTful APIs` `Microservices` |
-| **Databases** | `MySQL` `MongoDB` `PostgreSQL` `Redis` |
-| **Cloud &amp; DevOps** | `AWS` `Docker` `Git` `GitHub Actions` `Netlify` `Linux` |
-| **Development Tools** | `VS Code` `IntelliJ IDEA` `Postman` `Figma` `Maven` `npm / pnpm` |
-
-<br/>
-
-<!-- Modern Shield Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" alt="Three.js"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
-</p>
-
-</div>
-
----
-
-### ⚡ Currently Building &amp; Engineering
-
 ```text
-├── 🌟 ALGO3D
-│   └── An interactive 3D Data Structures & Algorithms laboratory in the browser using Three.js & WebGL.
-├── 🏛️ ZENTIQ / Smart Campus Ecosystem
-│   └── AI-powered campus platform for academic management, intelligent scheduling, and placement automation.
-└── 📅 Smart Timetable Generator
-    └── Automated multi-constraint scheduling engine built with Spring Boot, MySQL, and conflict resolution algorithms.
+❯ ashwath.whoami
+Name         : Ashwath S
+Role         : BE CSE Student | Full Stack Developer | AI/ML Enthusiast
+Focus Areas  : Interactive 3D Web • Spring Boot Backends • Applied AI
+Positioning  : "Building intelligent, scalable, and interactive software."
 ```
 
+</div>
+
 ---
 
-### 💼 Featured Projects
+### 🌐 Core Engineering Pillars
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🕹️ ALGO3D</h3>
-      <p>Interactive 3D Data Structures &amp; Algorithms visualization laboratory allowing developers and students to explore complex data structures spatially in real time.</p>
-      <p><b>Tech:</b> <code>Three.js</code> <code>JavaScript</code> <code>WebGL</code> <code>CSS3</code></p>
-      <p>
-        <a href="https://github.com/ashwath2005/ALGO3D-"><b>View Repository ➔</b></a>
-      </p>
+    <td width="33%" valign="top">
+      <h4>🕹️ Interactive 3D &amp; Graphics</h4>
+      <p>Building high-performance spatial computing experiences and browser-based algorithm visualizers using <b>Three.js</b> and <b>WebGL</b>.</p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="left">📅 Smart Timetable Generator</h3>
-      <p>Intelligent academic scheduling engine that resolves faculty, venue, and time slot conflicts automatically using constraint satisfaction algorithms.</p>
-      <p><b>Tech:</b> <code>Spring Boot</code> <code>Java</code> <code>MySQL</code> <code>REST APIs</code></p>
-      <p>
-        <a href="https://github.com/ashwath2005/timetable-generator"><b>View Repository ➔</b></a>
-      </p>
+    <td width="33%" valign="top">
+      <h4>⚡ Scalable Backend Systems</h4>
+      <p>Architecting robust, low-latency microservices, RESTful APIs, and database schemas with <b>Java</b>, <b>Spring Boot</b>, and <b>MySQL</b>.</p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🛡️ Archon AI Governance</h3>
-      <p>AI model governance and safety platform designed to evaluate model risks, monitor policy compliance, and audit automated decision-making workflows.</p>
-      <p><b>Tech:</b> <code>JavaScript</code> <code>Python</code> <code>AI/ML</code> <code>Node.js</code></p>
-      <p>
-        <a href="https://github.com/ashwath2005/archon-ai-governance"><b>View Repository ➔</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🌐 Developer Portfolio</h3>
-      <p>High-performance personal developer portfolio and interactive showcase featuring smooth micro-interactions, responsive design, and project demos.</p>
-      <p><b>Tech:</b> <code>TypeScript</code> <code>React</code> <code>Tailwind CSS</code> <code>Netlify</code></p>
-      <p>
-        <a href="https://ashwath-s-portfolio.netlify.app/"><b>Live Demo ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://github.com/ashwath2005/portfolio"><b>Repository ➔</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🏢 Anbunithi Agencies Portal</h3>
-      <p>Enterprise commercial web application for business inventory management, order pipelines, and client operational workflows.</p>
-      <p><b>Tech:</b> <code>JavaScript</code> <code>Full Stack Web</code> <code>Cloud Architecture</code></p>
-      <p>
-        <a href="https://github.com/ashwath2005/anbunithi-agencies"><b>View Repository ➔</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🔒 Firewall &amp; Security Engine</h3>
-      <p>Network security inspection engine designed for deep packet filtering, access control rule evaluation, and real-time connection logging.</p>
-      <p><b>Tech:</b> <code>Networking</code> <code>Network Security</code> <code>Systems Engineering</code></p>
-      <p>
-        <a href="https://github.com/ashwath2005/Firewall"><b>View Repository ➔</b></a>
-      </p>
+    <td width="33%" valign="top">
+      <h4>🤖 Applied AI &amp; Automation</h4>
+      <p>Developing intelligent tools, scheduling engines, and automated data pipelines using <b>Python</b> and modern machine learning techniques.</p>
     </td>
   </tr>
 </table>
 
 ---
 
+### ⚡ Currently Building
 
+* 🌟 **[ALGO3D](https://github.com/ashwath2005/ALGO3D-)** — Interactive 3D Data Structures &amp; Algorithms visual laboratory in the browser using Three.js &amp; WebGL.
+* 🏛️ **ZENTIQ / Smart Campus** — AI-powered smart campus platform for academic operations, intelligent scheduling, and placement preparation.
+* 📅 **[Smart Timetable Generator](https://github.com/ashwath2005/timetable-generator)** — Multi-constraint academic scheduling engine with automated conflict resolution built with Spring Boot &amp; MySQL.
+
+---
+
+### 🛠️ Tech Stack Matrix
+
+<div align="center">
+
+| Layer | Technologies &amp; Frameworks |
+| :--- | :--- |
+| **Languages** | `Java` `JavaScript (ES6+)` `TypeScript` `Python` `C++` `SQL` |
+| **Frontend** | `React` `Three.js` `Vite` `Tailwind CSS` `WebGL` `HTML5 / CSS3` |
+| **Backend &amp; APIs** | `Spring Boot` `Node.js` `Express` `RESTful Services` `Microservices` |
+| **Databases** | `MySQL` `MongoDB` `PostgreSQL` `Redis` |
+| **DevOps &amp; Cloud** | `AWS` `Docker` `Git` `GitHub Actions` `Netlify` `Linux` |
+| **Tooling** | `VS Code` `IntelliJ IDEA` `Postman` `Maven` `npm / pnpm` |
+
+<br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/java-05070A?style=flat-square&logo=openjdk&logoColor=38BDF8&labelColor=0B0F14" alt="java"/>
+  <img src="https://img.shields.io/badge/spring_boot-05070A?style=flat-square&logo=spring-boot&logoColor=34D399&labelColor=0B0F14" alt="spring-boot"/>
+  <img src="https://img.shields.io/badge/react-05070A?style=flat-square&logo=react&logoColor=61DAFB&labelColor=0B0F14" alt="react"/>
+  <img src="https://img.shields.io/badge/typescript-05070A?style=flat-square&logo=typescript&logoColor=38BDF8&labelColor=0B0F14" alt="typescript"/>
+  <img src="https://img.shields.io/badge/three.js-05070A?style=flat-square&logo=threedotjs&logoColor=C084FC&labelColor=0B0F14" alt="threejs"/>
+  <img src="https://img.shields.io/badge/python-05070A?style=flat-square&logo=python&logoColor=FBBF24&labelColor=0B0F14" alt="python"/>
+  <img src="https://img.shields.io/badge/mysql-05070A?style=flat-square&logo=mysql&logoColor=38BDF8&labelColor=0B0F14" alt="mysql"/>
+  <img src="https://img.shields.io/badge/docker-05070A?style=flat-square&logo=docker&logoColor=60A5FA&labelColor=0B0F14" alt="docker"/>
+  <img src="https://img.shields.io/badge/aws-05070A?style=flat-square&logo=amazon-aws&logoColor=F59E0B&labelColor=0B0F14" alt="aws"/>
+</p>
+
+</div>
+
+---
+
+### 💼 Featured Repositories
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🕹️ <a href="https://github.com/ashwath2005/ALGO3D-">ALGO3D</a></h4>
+      <p>Interactive 3D Data Structures and Algorithms visual laboratory for exploring complex data structures in real-time 3D space.</p>
+      <p><code>Three.js</code> <code>WebGL</code> <code>JavaScript</code> <code>CSS3</code></p>
+      <p><a href="https://github.com/ashwath2005/ALGO3D-"><b>Explore Codebase ➔</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📅 <a href="https://github.com/ashwath2005/timetable-generator">Smart Timetable Generator</a></h4>
+      <p>Automated constraint-based academic scheduling engine designed to eliminate timetable collisions across faculty, rooms, and batches.</p>
+      <p><code>Spring Boot</code> <code>Java</code> <code>MySQL</code> <code>REST API</code></p>
+      <p><a href="https://github.com/ashwath2005/timetable-generator"><b>Explore Codebase ➔</b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🛡️ <a href="https://github.com/ashwath2005/archon-ai-governance">Archon AI Governance</a></h4>
+      <p>Enterprise AI model risk evaluation, compliance tracking, and automated model policy audit framework.</p>
+      <p><code>JavaScript</code> <code>Python</code> <code>AI/ML</code> <code>Node.js</code></p>
+      <p><a href="https://github.com/ashwath2005/archon-ai-governance"><b>Explore Codebase ➔</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🌐 <a href="https://github.com/ashwath2005/portfolio">Developer Portfolio</a></h4>
+      <p>Interactive developer portfolio and project showcase featuring sleek dark-mode aesthetics and responsive layouts.</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Tailwind CSS</code> <code>Netlify</code></p>
+      <p><a href="https://ashwath-s-portfolio.netlify.app/"><b>Live Demo ↗</b></a> &nbsp;|&nbsp; <a href="https://github.com/ashwath2005/portfolio"><b>Repository ➔</b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏢 <a href="https://github.com/ashwath2005/anbunithi-agencies">Anbunithi Agencies Portal</a></h4>
+      <p>Commercial full-stack operations management platform for inventory pipelines and business logistics.</p>
+      <p><code>JavaScript</code> <code>Web Applications</code> <code>Cloud</code></p>
+      <p><a href="https://github.com/ashwath2005/anbunithi-agencies"><b>Explore Codebase ➔</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔒 <a href="https://github.com/ashwath2005/Firewall">Firewall &amp; Security Engine</a></h4>
+      <p>System network inspection and packet filtering engine designed with rule-based traffic analysis.</p>
+      <p><code>Networking</code> <code>Security</code> <code>Systems</code></p>
+      <p><a href="https://github.com/ashwath2005/Firewall"><b>Explore Codebase ➔</b></a></p>
+    </td>
+  </tr>
+</table>
+
+---
 
 ### 🤝 Let's Connect
 
 <div align="center">
 
-Whether you're looking to collaborate on high-impact projects, discuss engineering opportunities, or explore innovative software ideas, feel free to reach out.
+Open to engineering opportunities, collaborative builds, and innovative software discussions.
 
 <br/>
 
@@ -170,7 +161,7 @@ Whether you're looking to collaborate on high-impact projects, discuss engineeri
 <br/><br/>
 
 <p align="center">
-  <sub>Designed with precision • Built for the modern web • © <b>Ashwath S</b></sub>
+  <sub>Designed with precision • Built for high impact • © <b>Ashwath S</b></sub>
 </p>
 
 </div>
