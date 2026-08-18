@@ -6,10 +6,10 @@
 
 <br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-ashwath--s--portfolio.netlify.app-05070A?style=for-the-badge&logo=netlify&logoColor=38BDF8&labelColor=0B0F14&color=1E293B)](https://ashwath-s-portfolio.netlify.app/)
-[![GitHub](https://img.shields.io/badge/GITHUB-ashwath2005-05070A?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0B0F14&color=1E293B)](https://github.com/ashwath2005)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Ashwath%20S-05070A?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=0B0F14&color=1E293B)](https://www.linkedin.com/in/ashwath-s-58849b28a/)
-[![Email](https://img.shields.io/badge/EMAIL-ashwath2005%40gmail.com-05070A?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0B0F14&color=1E293B)](mailto:ashwath2005@gmail.com)
+[![portfolio](https://img.shields.io/badge/portfolio-ashwath--s--portfolio.netlify.app-05070A?style=flat-square&logo=netlify&logoColor=38BDF8&labelColor=0B0F14)](https://ashwath-s-portfolio.netlify.app/)
+[![github](https://img.shields.io/badge/github-ashwath2005-05070A?style=flat-square&logo=github&logoColor=F8FAFC&labelColor=0B0F14)](https://github.com/ashwath2005)
+[![linkedin](https://img.shields.io/badge/linkedin-ashwath--s-05070A?style=flat-square&logo=linkedin&logoColor=38BDF8&labelColor=0B0F14)](https://www.linkedin.com/in/ashwath-s-58849b28a/)
+[![email](https://img.shields.io/badge/email-ashwath2005%40gmail.com-05070A?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=0B0F14)](mailto:ashwath2005@gmail.com)
 
 <br/>
 
@@ -180,19 +180,19 @@ Whether you're looking to collaborate on high-impact projects, discuss engineeri
 <br/>
 
 <a href="https://ashwath-s-portfolio.netlify.app/">
-  <img src="https://img.shields.io/badge/Portfolio-ashwath--s--portfolio.netlify.app-05070A?style=for-the-badge&logo=netlify&logoColor=38BDF8&labelColor=0B0F14&color=1E293B" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/portfolio-ashwath--s--portfolio.netlify.app-05070A?style=flat-square&logo=netlify&logoColor=38BDF8&labelColor=0B0F14" alt="portfolio" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/ashwath-s-58849b28a/">
-  <img src="https://img.shields.io/badge/LinkedIn-Ashwath%20S-05070A?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=0B0F14&color=1E293B" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/linkedin-ashwath--s-05070A?style=flat-square&logo=linkedin&logoColor=38BDF8&labelColor=0B0F14" alt="linkedin" />
 </a>
 &nbsp;
 <a href="mailto:ashwath2005@gmail.com">
-  <img src="https://img.shields.io/badge/Email-ashwath2005%40gmail.com-05070A?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0B0F14&color=1E293B" alt="Email" />
+  <img src="https://img.shields.io/badge/email-ashwath2005%40gmail.com-05070A?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=0B0F14" alt="email" />
 </a>
 &nbsp;
 <a href="https://github.com/ashwath2005">
-  <img src="https://img.shields.io/badge/GitHub-ashwath2005-05070A?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0B0F14&color=1E293B" alt="GitHub" />
+  <img src="https://img.shields.io/badge/github-ashwath2005-05070A?style=flat-square&logo=github&logoColor=F8FAFC&labelColor=0B0F14" alt="github" />
 </a>
 
 <br/><br/>
