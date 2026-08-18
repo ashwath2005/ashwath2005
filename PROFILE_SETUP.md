@@ -28,7 +28,7 @@ Go to **[GitHub Profile Settings](https://github.com/settings/profile)** and upd
 | **Company / University** | `Computer Science Engineering` | Adds institutional credibility |
 | **Location** | `India` *(or your specific city)* | Helps recruiters identify time zones |
 | **Website** | `https://ashwath-s-portfolio.netlify.app/` | Direct link to your live portfolio |
-| **Social Accounts** | `https://www.linkedin.com/in/ashwath-s-58849b28a/` | Direct recruiter access |
+| **Social Accounts** | `https://www.linkedin.com/in/ashwath-s-skct/` | Direct recruiter access |
 
 ---
 
