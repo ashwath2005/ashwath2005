@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://ashwath-s-portfolio.netlify.app/">
-  <img src="assets/github-banner.svg" alt="Ashwath S - Full Stack Developer &amp; AI Enthusiast" width="100%" />
+  <img src="https://raw.githubusercontent.com/ashwath2005/ashwath2005/main/assets/github-banner.svg" alt="Ashwath S - Full Stack Developer &amp; AI Enthusiast" width="100%" />
 </a>
 
 <br/><br/>
