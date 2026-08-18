@@ -1,208 +1,208 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" fill="none">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712"/>
-      <stop offset="50%" stop-color="#0B0F19"/>
-      <stop offset="100%" stop-color="#02040A"/>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
 
-    <!-- Radial Glow Elements -->
-    <radialGradient id="cyan-glow" cx="15%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22"/>
-      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.05"/>
+    <!-- Subtle Radial Lights -->
+    <radialGradient id="glow-cyan" cx="12%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.20"/>
+      <stop offset="60%" stop-color="#0284C7" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="violet-glow" cx="85%" cy="80%" r="60%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.18"/>
-      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.04"/>
+    <radialGradient id="glow-indigo" cx="88%" cy="82%" r="65%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#4F46E5" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="emerald-glow" cx="50%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12"/>
+    <radialGradient id="glow-emerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
     <!-- Border Gradient -->
-    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.5"/>
-      <stop offset="25%" stop-color="#1E293B" stop-opacity="0.8"/>
-      <stop offset="75%" stop-color="#1E293B" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.5"/>
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#1E293B" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#1E293B" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.6"/>
     </linearGradient>
 
-    <!-- Header Text Gradient -->
-    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Text Gradients -->
+    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="45%" stop-color="#F8FAFC"/>
+      <stop offset="60%" stop-color="#F1F5F9"/>
       <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
 
-    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="tagline-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8"/>
       <stop offset="50%" stop-color="#818CF8"/>
       <stop offset="100%" stop-color="#C084FC"/>
     </linearGradient>
 
-    <!-- Dot Matrix Pattern -->
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.4"/>
-    </pattern>
-
-    <!-- Card Background -->
-    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.8"/>
+    <!-- Glass Card Background -->
+    <linearGradient id="card-surface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.85"/>
       <stop offset="100%" stop-color="#070D18" stop-opacity="0.95"/>
     </linearGradient>
+
+    <!-- Grid / Dot Pattern -->
+    <pattern id="grid-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.35"/>
+    </pattern>
   </defs>
 
   <style>
     .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace; }
     .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
-    .hero-name { font-weight: 900; letter-spacing: -0.03em; }
-    .badge-label { font-weight: 600; font-size: 11px; letter-spacing: 0.05em; }
+    .hero-name { font-weight: 800; letter-spacing: -0.03em; }
+    .tag-label { font-weight: 600; font-size: 11px; letter-spacing: 0.04em; }
   </style>
 
   <!-- Background Base -->
-  <rect width="1280" height="400" fill="url(#bg)" rx="16"/>
-  <rect width="1280" height="400" fill="url(#dots)" rx="16"/>
-  <rect width="1280" height="400" fill="url(#cyan-glow)" rx="16"/>
-  <rect width="1280" height="400" fill="url(#violet-glow)" rx="16"/>
-  <rect width="1280" height="400" fill="url(#emerald-glow)" rx="16"/>
+  <rect width="1280" height="380" fill="url(#bg-grad)" rx="16"/>
+  <rect width="1280" height="380" fill="url(#grid-dots)" rx="16"/>
+  <rect width="1280" height="380" fill="url(#glow-cyan)" rx="16"/>
+  <rect width="1280" height="380" fill="url(#glow-indigo)" rx="16"/>
+  <rect width="1280" height="380" fill="url(#glow-emerald)" rx="16"/>
 
-  <!-- Outer Elegant Frame -->
-  <rect x="1.5" y="1.5" width="1277" height="397" rx="15" fill="none" stroke="url(#card-border)" stroke-width="1.5"/>
+  <!-- Sleek Outer Border Frame -->
+  <rect x="1" y="1" width="1278" height="378" rx="15" fill="none" stroke="url(#border-grad)" stroke-width="1.5"/>
 
-  <!-- Top System Bar -->
-  <g transform="translate(48, 36)">
+  <!-- Top System Header Bar -->
+  <g transform="translate(44, 32)">
     <!-- Status Pill -->
-    <rect width="168" height="26" rx="13" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <rect width="176" height="26" rx="13" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
     <circle cx="14" cy="13" r="4" fill="#10B981"/>
     <circle cx="14" cy="13" r="7" fill="none" stroke="#10B981" stroke-opacity="0.4" stroke-width="1.2"/>
-    <text x="28" y="17" fill="#E2E8F0" class="font-mono" font-size="11" font-weight="600">AVAILABLE FOR WORK</text>
+    <text x="28" y="17" fill="#E2E8F0" class="font-mono" font-size="10.5" font-weight="600">OPEN TO OPPORTUNITIES</text>
 
-    <!-- Subtitle Pill -->
-    <g transform="translate(180, 0)">
-      <rect width="210" height="26" rx="13" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
-      <text x="14" y="17" fill="#38BDF8" class="font-mono" font-size="11" font-weight="600">ENGINEERING PORTFOLIO</text>
+    <!-- Location & College Tag -->
+    <g transform="translate(188, 0)">
+      <rect width="260" height="26" rx="13" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="17" fill="#94A3B8" class="font-mono" font-size="10.5">📍 COIMBATORE, TN • SKCT '27</text>
     </g>
 
-    <!-- Version / Architecture Badge -->
-    <text x="1184" y="17" text-anchor="end" fill="#64748B" class="font-mono" font-size="11">SYSTEM_ID: ASHWATH-V2 // FULLSTACK &amp; 3D</text>
+    <!-- System ID -->
+    <text x="1192" y="17" text-anchor="end" fill="#64748B" class="font-mono" font-size="11">SDE &amp; AI ENGINEER // FULL STACK &amp; 3D WEB</text>
   </g>
 
-  <!-- Left Main Hero -->
-  <g transform="translate(48, 100)">
-    <!-- Subtitle Tag -->
-    <text x="0" y="20" fill="url(#accent-grad)" class="font-mono" font-size="14" font-weight="700" letter-spacing="0.12em">
-      FULL STACK DEVELOPER • AI/ML ENTHUSIAST
+  <!-- Left Main Hero Content -->
+  <g transform="translate(44, 95)">
+    <!-- Subtitle Role -->
+    <text x="0" y="18" fill="url(#tagline-grad)" class="font-mono" font-size="13" font-weight="700" letter-spacing="0.14em">
+      SOFTWARE DEVELOPMENT ENGINEER • AI &amp; FULL STACK
     </text>
 
-    <!-- Main Large Name -->
-    <text x="0" y="80" fill="url(#title-grad)" class="font-sans hero-name" font-size="64">
+    <!-- Primary Large Name -->
+    <text x="0" y="78" fill="url(#name-grad)" class="font-sans hero-name" font-size="62">
       Ashwath S
     </text>
 
-    <!-- Clean Positioning Description -->
-    <text x="0" y="122" fill="#94A3B8" class="font-sans" font-size="18" font-weight="400">
-      Crafting scalable full-stack architectures, interactive 3D computing &amp; intelligent tools.
+    <!-- Summary Statement -->
+    <text x="0" y="118" fill="#94A3B8" class="font-sans" font-size="16.5" font-weight="400">
+      Engineering scalable full-stack web applications, interactive 3D WebGL experiences &amp; AI systems.
     </text>
 
-    <!-- Interactive Quick Badges -->
-    <g transform="translate(0, 160)">
-      <!-- Badge: React -->
+    <!-- Tech Stack Pill Matrix -->
+    <g transform="translate(0, 154)">
+      <!-- Java & Spring Boot -->
       <g transform="translate(0, 0)">
-        <rect width="90" height="32" rx="8" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.2"/>
-        <circle cx="16" cy="16" r="3.5" fill="#38BDF8"/>
-        <text x="28" y="20" fill="#F1F5F9" class="font-mono badge-label">react</text>
+        <rect width="148" height="30" rx="7" fill="url(#card-surface)" stroke="#1E293B" stroke-width="1.2"/>
+        <circle cx="14" cy="15" r="3.5" fill="#34D399"/>
+        <text x="26" y="19" fill="#F1F5F9" class="font-mono tag-label">Java · Spring Boot</text>
       </g>
 
-      <!-- Badge: Spring Boot -->
-      <g transform="translate(100, 0)">
-        <rect width="130" height="32" rx="8" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.2"/>
-        <circle cx="16" cy="16" r="3.5" fill="#34D399"/>
-        <text x="28" y="20" fill="#F1F5F9" class="font-mono badge-label">spring boot</text>
+      <!-- React & TypeScript -->
+      <g transform="translate(156, 0)">
+        <rect width="144" height="30" rx="7" fill="url(#card-surface)" stroke="#1E293B" stroke-width="1.2"/>
+        <circle cx="14" cy="15" r="3.5" fill="#38BDF8"/>
+        <text x="26" y="19" fill="#F1F5F9" class="font-mono tag-label">React · TypeScript</text>
       </g>
 
-      <!-- Badge: Three.js -->
-      <g transform="translate(240, 0)">
-        <rect width="105" height="32" rx="8" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.2"/>
-        <circle cx="16" cy="16" r="3.5" fill="#C084FC"/>
-        <text x="28" y="20" fill="#F1F5F9" class="font-mono badge-label">three.js</text>
+      <!-- Three.js & WebGL -->
+      <g transform="translate(308, 0)">
+        <rect width="138" height="30" rx="7" fill="url(#card-surface)" stroke="#1E293B" stroke-width="1.2"/>
+        <circle cx="14" cy="15" r="3.5" fill="#C084FC"/>
+        <text x="26" y="19" fill="#F1F5F9" class="font-mono tag-label">Three.js · WebGL</text>
       </g>
 
-      <!-- Badge: Python / AI -->
-      <g transform="translate(355, 0)">
-        <rect width="125" height="32" rx="8" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.2"/>
-        <circle cx="16" cy="16" r="3.5" fill="#FBBF24"/>
-        <text x="28" y="20" fill="#F1F5F9" class="font-mono badge-label">python · ai</text>
+      <!-- Python & FastAPI -->
+      <g transform="translate(454, 0)">
+        <rect width="136" height="30" rx="7" fill="url(#card-surface)" stroke="#1E293B" stroke-width="1.2"/>
+        <circle cx="14" cy="15" r="3.5" fill="#FBBF24"/>
+        <text x="26" y="19" fill="#F1F5F9" class="font-mono tag-label">Python · FastAPI</text>
       </g>
 
-      <!-- Badge: Cloud / DevOps -->
-      <g transform="translate(490, 0)">
-        <rect width="120" height="32" rx="8" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.2"/>
-        <circle cx="16" cy="16" r="3.5" fill="#60A5FA"/>
-        <text x="28" y="20" fill="#F1F5F9" class="font-mono badge-label">cloud / dsa</text>
+      <!-- MySQL & Cloud -->
+      <g transform="translate(598, 0)">
+        <rect width="116" height="30" rx="7" fill="url(#card-surface)" stroke="#1E293B" stroke-width="1.2"/>
+        <circle cx="14" cy="15" r="3.5" fill="#60A5FA"/>
+        <text x="26" y="19" fill="#F1F5F9" class="font-mono tag-label">MySQL · AWS</text>
       </g>
     </g>
   </g>
 
-  <!-- Right Side Interactive Architecture Glass Card -->
-  <g transform="translate(800, 85)">
+  <!-- Right Code Window Glass Card -->
+  <g transform="translate(790, 80)">
     <!-- Container Box -->
-    <rect width="432" height="258" rx="14" fill="url(#card-bg)" stroke="#1E293B" stroke-width="1.5"/>
+    <rect width="446" height="248" rx="12" fill="url(#card-surface)" stroke="#1E293B" stroke-width="1.2"/>
 
     <!-- Window Header -->
-    <path d="M 0 14 C 0 6.268 6.268 0 14 0 L 418 0 C 425.732 0 432 6.268 432 14 L 432 38 L 0 38 Z" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
-    <circle cx="20" cy="19" r="4.5" fill="#EF4444" fill-opacity="0.85"/>
-    <circle cx="36" cy="19" r="4.5" fill="#F59E0B" fill-opacity="0.85"/>
-    <circle cx="52" cy="19" r="4.5" fill="#10B981" fill-opacity="0.85"/>
-    <text x="216" y="23" text-anchor="middle" fill="#64748B" class="font-mono" font-size="11">system-profile.json</text>
+    <path d="M 0 12 C 0 5.373 5.373 0 12 0 L 434 0 C 440.627 0 446 5.373 446 12 L 446 34 L 0 34 Z" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="18" cy="17" r="4.5" fill="#EF4444" fill-opacity="0.85"/>
+    <circle cx="34" cy="17" r="4.5" fill="#F59E0B" fill-opacity="0.85"/>
+    <circle cx="50" cy="17" r="4.5" fill="#10B981" fill-opacity="0.85"/>
+    <text x="223" y="21" text-anchor="middle" fill="#64748B" class="font-mono" font-size="11">engineer.config.ts</text>
 
-    <!-- JSON Code Display -->
-    <g transform="translate(24, 62)" class="font-mono" font-size="12">
-      <text x="0" y="0" fill="#F8FAFC">{</text>
-      
-      <text x="16" y="20">
-        <tspan fill="#38BDF8">"engineer"</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#34D399">"Ashwath S"</tspan><tspan fill="#94A3B8">,</tspan>
+    <!-- Code Block -->
+    <g transform="translate(20, 56)" class="font-mono" font-size="11.5">
+      <text x="0" y="0" fill="#64748B">// Aspiring SDE &amp; AI Engineer</text>
+
+      <text x="0" y="20">
+        <tspan fill="#F43F5E">const</tspan> <tspan fill="#38BDF8">engineer</tspan> <tspan fill="#94A3B8">=</tspan> <tspan fill="#F8FAFC">{</tspan>
       </text>
 
       <text x="16" y="40">
-        <tspan fill="#38BDF8">"education"</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#F8FAFC">"B.E. Computer Science"</tspan><tspan fill="#94A3B8">,</tspan>
+        <tspan fill="#38BDF8">name</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#34D399">"Ashwath S"</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <text x="16" y="60">
-        <tspan fill="#38BDF8">"flagships"</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#F8FAFC">[</tspan><tspan fill="#FBBF24">"ALGO3D"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#FBBF24">"ZENTIQ"</tspan><tspan fill="#F8FAFC">]</tspan><tspan fill="#94A3B8">,</tspan>
+        <tspan fill="#38BDF8">education</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#F8FAFC">"B.E. CSE @ SKCT (2023-2027)"</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <text x="16" y="80">
-        <tspan fill="#38BDF8">"interests"</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#F8FAFC">[</tspan><tspan fill="#C084FC">"3D Web"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#C084FC">"Spring Boot"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#C084FC">"AI"</tspan><tspan fill="#F8FAFC">]</tspan><tspan fill="#94A3B8">,</tspan>
+        <tspan fill="#38BDF8">flagships</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#F8FAFC">[</tspan><tspan fill="#FBBF24">"ALGO3D"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#FBBF24">"ARCHON"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#FBBF24">"Smart Campus AI"</tspan><tspan fill="#F8FAFC">]</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <text x="16" y="100">
-        <tspan fill="#38BDF8">"portfolio"</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#38BDF8">"ashwath-s-portfolio"</tspan><tspan fill="#94A3B8">,</tspan>
+        <tspan fill="#38BDF8">domains</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#F8FAFC">[</tspan><tspan fill="#C084FC">"Full-Stack"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#C084FC">"3D WebGL"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#C084FC">"Spring Boot"</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#C084FC">"GenAI"</tspan><tspan fill="#F8FAFC">]</tspan><tspan fill="#94A3B8">,</tspan>
       </text>
 
       <text x="16" y="120">
-        <tspan fill="#38BDF8">"status"</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#10B981">"open to opportunities"</tspan>
+        <tspan fill="#38BDF8">status</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#10B981">"Actively Seeking SDE / AI Roles"</tspan>
       </text>
 
-      <text x="0" y="142" fill="#F8FAFC">}</text>
+      <text x="0" y="140" fill="#F8FAFC">};</text>
 
-      <!-- Interactive Shell Prompt Line -->
-      <g transform="translate(0, 168)">
-        <rect width="384" height="24" rx="5" fill="#030712" stroke="#1E293B" stroke-width="1"/>
-        <text x="10" y="16" font-size="11">
-          <tspan fill="#38BDF8">❯</tspan> <tspan fill="#94A3B8">ashwath --ready --deploy</tspan> <tspan fill="#10B981">✓</tspan>
+      <!-- Terminal Line -->
+      <g transform="translate(0, 154)">
+        <rect width="406" height="22" rx="4" fill="#030712" stroke="#1E293B" stroke-width="1"/>
+        <text x="8" y="15" font-size="10.5">
+          <tspan fill="#38BDF8">❯</tspan> <tspan fill="#94A3B8">git commit -m "feat: ship high-impact software"</tspan> <tspan fill="#10B981">✓</tspan>
         </text>
       </g>
     </g>
   </g>
 
   <!-- Bottom Accent Highlights -->
-  <line x1="48" y1="368" x2="1232" y2="368" stroke="#1E293B" stroke-width="1"/>
-  <circle cx="48" cy="368" r="2.5" fill="#38BDF8"/>
-  <circle cx="1232" cy="368" r="2.5" fill="#A855F7"/>
+  <line x1="44" y1="352" x2="1236" y2="352" stroke="#1E293B" stroke-width="1"/>
+  <circle cx="44" cy="352" r="2" fill="#38BDF8"/>
+  <circle cx="1236" cy="352" r="2" fill="#818CF8"/>
 </svg>
