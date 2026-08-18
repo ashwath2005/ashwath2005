@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060A"/>
+      <stop offset="50%" stop-color="#080D14"/>
+      <stop offset="100%" stop-color="#030508"/>
+    </linearGradient>
+
+    <!-- Accent Radial Glows -->
+    <radialGradient id="glow-cyan" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#0284C7" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-indigo" cx="85%" cy="70%" r="55%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#4F46E5" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <!-- Subtitle Gradient -->
+    <linearGradient id="sub-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+
+    <!-- Border Linear Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="30%" stop-color="#1E293B" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#1E293B" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.45"/>
+      <circle cx="40" cy="40" r="1" fill="#38BDF8" fill-opacity="0.2"/>
+    </pattern>
+
+    <!-- Tech Chip Gradient -->
+    <linearGradient id="chip-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-weight: 800; letter-spacing: 0.08em; }
+    .subtitle { font-weight: 600; letter-spacing: 0.18em; }
+    .tagline { font-weight: 400; letter-spacing: 0.02em; }
+    .code-text { font-size: 13px; fill: #64748B; letter-spacing: 0.05em; }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1280" height="400" fill="url(#bg-grad)" rx="16"/>
+  <rect width="1280" height="400" fill="url(#grid-pattern)" rx="16"/>
+
+  <!-- Glow Overlays -->
+  <rect width="1280" height="400" fill="url(#glow-cyan)" rx="16"/>
+  <rect width="1280" height="400" fill="url(#glow-indigo)" rx="16"/>
+
+  <!-- Outer Elegant Border Frame -->
+  <rect x="1" y="1" width="1278" height="398" rx="15" fill="none" stroke="url(#border-grad)" stroke-width="1.5"/>
+
+  <!-- Top Status Bar / Header HUD -->
+  <g transform="translate(60, 48)">
+    <circle cx="6" cy="6" r="4.5" fill="#10B981"/>
+    <circle cx="6" cy="6" r="9" fill="none" stroke="#10B981" stroke-opacity="0.3" stroke-width="1.5"/>
+    <text x="24" y="10" fill="#94A3B8" class="font-mono" font-size="12" font-weight="500" letter-spacing="0.1em">SYSTEM.ONLINE // ASHWATH.DEV // CS &amp; FULL STACK</text>
+
+    <!-- Top Right Coordinates / Badges -->
+    <text x="1100" y="10" text-anchor="end" fill="#64748B" class="font-mono" font-size="11">LATENCY: 12ms · REGION: GLOBAL · ARCH: DISTRIBUTED</text>
+  </g>
+
+  <!-- Hero Content Left Side -->
+  <g transform="translate(60, 110)">
+    <!-- Subtitle / Role Track -->
+    <text x="0" y="24" fill="url(#sub-grad)" class="font-mono subtitle" font-size="13">FULL STACK DEVELOPER • AI/ML ENTHUSIAST</text>
+
+    <!-- Main Title -->
+    <text x="0" y="88" fill="url(#text-grad)" class="font-sans title" font-size="62">ASHWATH S</text>
+
+    <!-- Positioning Statement -->
+    <text x="0" y="128" fill="#94A3B8" class="font-sans tagline" font-size="19">
+      Building intelligent, scalable and interactive software systems.
+    </text>
+
+    <!-- Tech Stack Pill Badges -->
+    <g transform="translate(0, 162)">
+      <!-- Pill 1: React -->
+      <g transform="translate(0, 0)">
+        <rect width="84" height="28" rx="6" fill="url(#chip-bg)" stroke="#334155" stroke-width="1"/>
+        <circle cx="14" cy="14" r="3" fill="#38BDF8"/>
+        <text x="26" y="18" fill="#F1F5F9" class="font-mono" font-size="11" font-weight="600">React</text>
+      </g>
+
+      <!-- Pill 2: Spring Boot -->
+      <g transform="translate(94, 0)">
+        <rect width="124" height="28" rx="6" fill="url(#chip-bg)" stroke="#334155" stroke-width="1"/>
+        <circle cx="14" cy="14" r="3" fill="#34D399"/>
+        <text x="26" y="18" fill="#F1F5F9" class="font-mono" font-size="11" font-weight="600">Spring Boot</text>
+      </g>
+
+      <!-- Pill 3: Three.js -->
+      <g transform="translate(228, 0)">
+        <rect width="102" height="28" rx="6" fill="url(#chip-bg)" stroke="#334155" stroke-width="1"/>
+        <circle cx="14" cy="14" r="3" fill="#A855F7"/>
+        <text x="26" y="18" fill="#F1F5F9" class="font-mono" font-size="11" font-weight="600">Three.js</text>
+      </g>
+
+      <!-- Pill 4: Python & AI -->
+      <g transform="translate(340, 0)">
+        <rect width="138" height="28" rx="6" fill="url(#chip-bg)" stroke="#334155" stroke-width="1"/>
+        <circle cx="14" cy="14" r="3" fill="#FBBF24"/>
+        <text x="26" y="18" fill="#F1F5F9" class="font-mono" font-size="11" font-weight="600">Python · AI/ML</text>
+      </g>
+
+      <!-- Pill 5: Cloud Architecture -->
+      <g transform="translate(488, 0)">
+        <rect width="144" height="28" rx="6" fill="url(#chip-bg)" stroke="#334155" stroke-width="1"/>
+        <circle cx="14" cy="14" r="3" fill="#60A5FA"/>
+        <text x="26" y="18" fill="#F1F5F9" class="font-mono" font-size="11" font-weight="600">Cloud &amp; DevOps</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Side Interactive Code Visual / Glass Card -->
+  <g transform="translate(810, 85)">
+    <!-- Glass Card Background -->
+    <rect width="410" height="255" rx="12" fill="#0A101D" fill-opacity="0.85" stroke="#1E293B" stroke-width="1.5"/>
+
+    <!-- Terminal Window Bar -->
+    <rect width="410" height="34" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <!-- Overwrite bottom rounded corners of the titlebar -->
+    <rect y="22" width="410" height="12" fill="#0F172A"/>
+
+    <!-- Window Controls -->
+    <circle cx="20" cy="17" r="4.5" fill="#EF4444" fill-opacity="0.8"/>
+    <circle cx="36" cy="17" r="4.5" fill="#F59E0B" fill-opacity="0.8"/>
+    <circle cx="52" cy="17" r="4.5" fill="#10B981" fill-opacity="0.8"/>
+    <text x="205" y="21" text-anchor="middle" fill="#64748B" class="font-mono" font-size="11">engineer.config.ts</text>
+
+    <!-- Code Content -->
+    <g transform="translate(24, 60)" class="font-mono">
+      <text x="0" y="0" font-size="12">
+        <tspan fill="#A855F7">const</tspan> <tspan fill="#38BDF8">engineer</tspan> <tspan fill="#94A3B8">=</tspan> <tspan fill="#F8FAFC">{</tspan>
+      </text>
+      <text x="16" y="22" font-size="12">
+        <tspan fill="#94A3B8">name:</tspan> <tspan fill="#38BDF8">'Ashwath S'</tspan><tspan fill="#94A3B8">,</tspan>
+      </text>
+      <text x="16" y="44" font-size="12">
+        <tspan fill="#94A3B8">role:</tspan> <tspan fill="#38BDF8">'Full Stack &amp; AI Engineer'</tspan><tspan fill="#94A3B8">,</tspan>
+      </text>
+      <text x="16" y="66" font-size="12">
+        <tspan fill="#94A3B8">education:</tspan> <tspan fill="#34D399">'B.E. Computer Science'</tspan><tspan fill="#94A3B8">,</tspan>
+      </text>
+      <text x="16" y="88" font-size="12">
+        <tspan fill="#94A3B8">focus:</tspan> <tspan fill="#94A3B8">[</tspan><tspan fill="#FBBF24">'3D Web'</tspan><tspan fill="#94A3B8">, </tspan><tspan fill="#FBBF24">'Intelligent Systems'</tspan><tspan fill="#94A3B8">],</tspan>
+      </text>
+      <text x="16" y="110" font-size="12">
+        <tspan fill="#94A3B8">passion:</tspan> <tspan fill="#34D399">'Crafting high-impact products'</tspan><tspan fill="#94A3B8">,</tspan>
+      </text>
+      <text x="16" y="132" font-size="12">
+        <tspan fill="#94A3B8">status:</tspan> <tspan fill="#10B981">'Ready to collaborate'</tspan>
+      </text>
+      <text x="0" y="154" font-size="12" fill="#F8FAFC">};</text>
+
+      <!-- Terminal cursor -->
+      <text x="0" y="180" font-size="12">
+        <tspan fill="#38BDF8">❯</tspan> <tspan fill="#F1F5F9">git commit -m "build the future"</tspan> <tspan fill="#38BDF8">█</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <line x1="60" y1="365" x2="1220" y2="365" stroke="#1E293B" stroke-width="1"/>
+  <circle cx="60" cy="365" r="2" fill="#38BDF8"/>
+  <circle cx="1220" cy="365" r="2" fill="#818CF8"/>
+</svg>
